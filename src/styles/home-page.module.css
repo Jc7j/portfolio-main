@@ -1,5 +1,5 @@
 .homepageContainer {
-  background-color: #162A2C;
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,11 +7,15 @@
 }
 
 .container {
-  background-color: #162A2C;
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container > div {
+  width: 0%;
 }
 
 .myName {
@@ -25,7 +29,7 @@
 }
 
 .pastSectionTitle {
-  color: #5E6C5B;
+  color: var(--container-header-text-color);
   font-family: mermaid;
   font-size: 1.2rem;
 }
@@ -36,7 +40,7 @@
 }
 
 .currentlyOn > p {
-  color: #686867;
+  color: var(--subheader-text-color);
   font-size: .95em;
   margin-top: 5px;
 }

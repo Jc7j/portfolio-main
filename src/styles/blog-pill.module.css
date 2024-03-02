@@ -1,6 +1,6 @@
 .blogPill {
   display: block;
-  background-color:#5E6C5B; 
+  background-color:var(--pill-background-color); 
   padding: 10px 15px; 
   margin: 10px 0;
   border-radius: 10px; 
@@ -9,7 +9,7 @@
 }
 
 .blogPill:hover {
-  background-color: #CBB89D;
+  background-color: var(--pill-background-color-on-hover);
   cursor: pointer;
 }
 
@@ -23,6 +23,6 @@
 
 .title {
   font-size: 1em;
-  color: #000;
+  color: var(--header-color-on-green-backgrounnd);
   margin: 0;   
 }

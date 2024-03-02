@@ -9,7 +9,7 @@
 .pillContainer {
   display: flex;
   align-items: center;
-  background-color: #5E6C5B; 
+  background-color: var(--pill-background-color); 
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
@@ -18,7 +18,7 @@
 }
 
 .pillContainer:hover {
-  background-color: #CBB89D;
+  background-color: var(--pill-background-color-on-hover);
 }
 
 .logo {
@@ -33,7 +33,7 @@
 }
 
 .title {
-  color: #000;
+  color: var(--header-color-on-green-backgrounnd);
   font-size: 1rem;
   font-weight: bolder;
   margin: 0;
@@ -47,6 +47,6 @@
 
 .pillDescriptionContainer > p {
   font-size: 0.8rem;
-  color: #D7D2CB;
+  color: var(--subheader-color-on-green-background);
   margin: 0;
 }
