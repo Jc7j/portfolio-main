@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: forum;
+  scroll-behavior: smooth !important;
+  margin: 0;
+}
+
+body > h2 {
+  font-family: mermaid;
+}
+
+.app-container {
+  background-color: #162A2C;
+}
+
+@font-face {
+  font-family: 'forum';
+  src: url('/public/fonts/Forum-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mermaid';
+  src: url('/public/fonts/Mermaid1001.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

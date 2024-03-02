@@ -1,0 +1,76 @@
+.homepageContainer {
+  background-color: #162A2C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #162A2C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myName {
+  font-family: mermaid;
+  color: #C1B59F;
+  font-size: 3.5em;
+}
+
+.contentContainer {
+  display: flex;
+}
+
+.pastSectionTitle {
+  color: #5E6C5B;
+  font-family: mermaid;
+  font-size: 1.2rem;
+}
+
+.currentlyOn {
+  border-bottom: 1px solid grey;
+  margin-bottom: 15px;
+}
+
+.currentlyOn > p {
+  color: #686867;
+  font-size: .95em;
+  margin-top: 5px;
+}
+
+.secondRowSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillAndContactSection {
+  display: flex;
+}
+
+.skillAndContactSection > div {
+  flex-basis: 50%;
+  margin: 0 10px;
+}
+
+@media (min-width: 1024px) {
+  .homepageContainer {
+    height: 100vh;
+  }
+
+  .myName {
+    width: 75.5%;
+    font-size: 5em;
+    margin-bottom: 0;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .container > div {
+    flex-basis: 25%;
+  }
+}

@@ -1,0 +1,17 @@
+.contactPill {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  text-decoration: none;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; 
+}
+
+.title {
+  font-size: .95rem;
+  color: #686867;
+}

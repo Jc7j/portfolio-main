@@ -1,0 +1,28 @@
+.blogPill {
+  display: block;
+  background-color:#5E6C5B; 
+  padding: 10px 15px; 
+  margin: 10px 0;
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.blogPill:hover {
+  background-color: #CBB89D;
+  cursor: pointer;
+}
+
+.time {
+  font-size: 0.8rem; 
+  margin-bottom: 5px;
+  color: #F4EFE6;
+  display: block;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 1em;
+  color: #000;
+  margin: 0;   
+}

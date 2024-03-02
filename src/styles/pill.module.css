@@ -1,0 +1,52 @@
+.pillLink {
+  text-decoration: none; 
+} 
+
+.pillLink-hover:hover {
+  cursor: pointer;
+}
+
+.pillContainer {
+  display: flex;
+  align-items: center;
+  background-color: #5E6C5B; 
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.pillContainer:hover {
+  background-color: #CBB89D;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.title {
+  color: #000;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.pillDescriptionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pillDescriptionContainer > p {
+  font-size: 0.8rem;
+  color: #D7D2CB;
+  margin: 0;
+}

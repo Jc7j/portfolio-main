@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-main",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.0.0",
+    "preact": "^10.19.5",
+    "preact-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@preact/preset-vite": "^2.8.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
