@@ -15,6 +15,7 @@ body {
   font-family: forum;
   scroll-behavior: smooth !important;
   margin: 0;
+  background-color: var(--container-background-color);
 }
 
 body > h2 {
@@ -22,19 +23,19 @@ body > h2 {
 }
 
 .app-container {
-  background-color: var(--background-color);
+  background-color: var(--container-background-color);
 }
 
 @font-face {
   font-family: 'forum';
-  src: url('/public/fonts/Forum-Regular.ttf');
+  src: url('/fonts/Forum-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'mermaid';
-  src: url('/public/fonts/Mermaid1001.ttf');
+  src: url('/fonts/Mermaid1001.ttf');
   font-weight: normal;
   font-style: normal;
 }

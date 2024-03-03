@@ -1,8 +1,3 @@
----
-title: "Question Driven Development"
-date: "2024-02-05"
----
-
 # Question Driven Development: The Path to Deeper Understanding in Coding and Life
 
 In the world of software development, methodologies and practices abound, each offering a roadmap to efficient and effective project completion. Among these, a less conventional but profoundly impactful approach is **Question Driven Development (QDD)**. At its core, QDD champions a curious mindset, encouraging developers to question every aspect of the development process, from the smallest line of code to the overarching system architecture.

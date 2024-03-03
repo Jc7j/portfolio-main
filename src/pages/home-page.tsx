@@ -150,7 +150,12 @@ const HomePage: FunctionComponent = () => {
 					iconAlt="writing icon"
 				>
 					{blogsMetadata.map((blog) => (
-						<BlogPill key={blog.slug} title={blog.title} date={blog.date} />
+						<BlogPill
+							id={blog.slug}
+							key={blog.slug}
+							title={blog.title}
+							date={blog.date}
+						/>
 					))}
 				</Container>
 			</div>

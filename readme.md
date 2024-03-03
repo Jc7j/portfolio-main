@@ -1,6 +1,2 @@
-Header: #
-Main Background: #162A2C;
-Container Background: #F4EFE6;
-Subheaders: #686867;
-
-both texts: #F4EFE6;
+1. Create the detail page like mediums blog page (https://rodrigovillarreal.medium.com/what-i-learnt-from-failing-interviews-at-google-uber-and-airbnb-part-1-motivation-preparation-e4dcc3bf4a52)
+2. 
