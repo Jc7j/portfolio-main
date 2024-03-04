@@ -1,5 +1,4 @@
 import { Router } from "preact-router";
-
 import BlogDetail from "./blog-detail";
 import Homepage from "./home-page";
 

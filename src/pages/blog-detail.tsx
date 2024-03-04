@@ -2,25 +2,20 @@ import { FunctionComponent } from "preact";
 import { useEffect, useState } from "preact/hooks";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
-// import RouteComponentProps from "preact-router";
 
 import Sidebar from "../components/Sidebar";
 
 import styles from "../styles/blog-detail.module.css";
 
-// interface BlogDetailProps extends RouteComponentProps<{ id: string }> {}
-interface BlogDetailProps {
-	id?: string;
-}
-
-const BlogDetail: FunctionComponent<BlogDetailProps> = (props) => {
-	const { id } = props;
+const BlogDetail: FunctionComponent = () => {
+	const url = window.location.href;
+	const blogSlug = url.substring(url.lastIndexOf("/blog/") + "/blog/".length);
 
 	const [htmlContent, setHtmlContent] = useState<string>("");
 
 	useEffect(() => {
 		const fetchBlogContent = async () => {
-			const filePath = `/public/blog/${id}.md`;
+			const filePath = `/blog/${blogSlug}.md`;
 			try {
 				const response = await fetch(filePath);
 				const markdown = await response.text();
@@ -33,7 +28,7 @@ const BlogDetail: FunctionComponent<BlogDetailProps> = (props) => {
 		};
 
 		fetchBlogContent();
-	}, [id]);
+	}, [blogSlug]);
 
 	// @ts-ignore
 	return (
