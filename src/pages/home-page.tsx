@@ -20,9 +20,9 @@ const HomePage: FunctionComponent = () => {
 				>
 					<div className={styles.currentlyOn}>
 						<p>
-							Proactively sharpening my skills in data structures and algorithms
-							while architecting fun projects that refine and expand my
-							engineering capabilities{" "}
+							Actively engaging in challenging projects that enhance my
+							full-stack and frontend development expertise, while continuously
+							expanding my technical knowledge and engineering skill set.
 						</p>
 					</div>
 					<h2 className={styles.pastSectionTitle}>Past</h2>
