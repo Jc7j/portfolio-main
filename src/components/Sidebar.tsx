@@ -9,7 +9,7 @@ const Sidebar: FunctionComponent = () => {
 			<nav>
 				<ul>
 					<Link class={styles.link} href="/">
-						Home
+						Jason Chiang
 					</Link>
 				</ul>
 			</nav>

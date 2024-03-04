@@ -1,22 +1,7 @@
 [
   {
-      "title": "Question Driven Development",
+      "title": "Question Driven Development: The Path to Deeper Understanding in Coding and Life",
       "date": "2024-02-05",
       "slug": "question-driven-development"
-  },
-  {
-      "title": "Understanding React Hooks",
-      "date": "2024-02-10",
-      "slug": "understanding-react-hooks"
-  },
-  {
-      "title": "Exploring the New Features in Preact X",
-      "date": "2024-03-05",
-      "slug": "exploring-new-features-in-preact"
-  },
-  {
-      "title": "Building a Simple App with TypeScript",
-      "date": "2024-04-20",
-      "slug": "building-simple-app-with-typescript"
   }
 ]

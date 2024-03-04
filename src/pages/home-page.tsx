@@ -157,6 +157,9 @@ const HomePage: FunctionComponent = () => {
 							date={blog.date}
 						/>
 					))}
+					<p className={styles.blogCurrentlyWritingMore}>
+						currently writing more...
+					</p>
 				</Container>
 			</div>
 		</div>
