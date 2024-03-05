@@ -57,6 +57,9 @@ const HomePage: FunctionComponent = () => {
 						icon="static/project-icon.png"
 						iconAlt="project icon"
 					>
+						<p className={styles.projectCurrentlyCreatingText}>
+							currently creating...
+						</p>
 						<Pill
 							logo="static/lvtownfridge.png"
 							logoAlt="las vegas town fridge logo"
@@ -157,9 +160,6 @@ const HomePage: FunctionComponent = () => {
 							date={blog.date}
 						/>
 					))}
-					<p className={styles.blogCurrentlyWritingMore}>
-						currently writing more...
-					</p>
 				</Container>
 			</div>
 		</div>

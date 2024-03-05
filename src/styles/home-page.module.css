@@ -59,8 +59,8 @@
   margin: 0 10px;
 }
 
-.blogCurrentlyWritingMore {
-  color: var(--subheader-text-color);
+.projectCurrentlyCreatingText {
+  color: var(--subheader-text-color)
 }
 
 @media (min-width: 1024px) {
