@@ -53,20 +53,18 @@ const HomePage: FunctionComponent = () => {
 				</Container>
 				<div className={styles.secondRowSection}>
 					<Container
-						title="Projects"
-						icon="static/project-icon.png"
-						iconAlt="project icon"
+						title="Blog"
+						icon="static/blog-icon.png"
+						iconAlt="writing icon"
 					>
-						<p className={styles.projectCurrentlyCreatingText}>
-							currently creating...
-						</p>
-						<Pill
-							logo="static/lvtownfridge.png"
-							logoAlt="las vegas town fridge logo"
-							title="Las Vegas Town Fridge"
-							description="Co-founded a small organization to combat food insecurity & waste"
-							url="https://www.instagram.com/lvtownfridge/"
-						/>
+						{blogsMetadata.map((blog) => (
+							<BlogPill
+								id={blog.slug}
+								key={blog.slug}
+								title={blog.title}
+								date={blog.date}
+							/>
+						))}
 					</Container>
 					<div className={styles.skillAndContactSection}>
 						<Container
@@ -148,18 +146,27 @@ const HomePage: FunctionComponent = () => {
 					</div>
 				</div>
 				<Container
-					title="Blog"
-					icon="static/blog-icon.png"
-					iconAlt="writing icon"
+					title="Projects"
+					icon="static/project-icon.png"
+					iconAlt="project icon"
 				>
-					{blogsMetadata.map((blog) => (
-						<BlogPill
-							id={blog.slug}
-							key={blog.slug}
-							title={blog.title}
-							date={blog.date}
-						/>
-					))}
+					<p className={styles.projectCurrentlyCreatingText}>
+						currently creating...
+					</p>
+					<Pill
+						logo="static/toughtalks-icon.png"
+						logoAlt="Tough Talks Icon"
+						title="Tough Talks"
+						description="Currently building an app designed focused on mental well-being, enabling users to share and
+							 automatically delete posts about stress & stress "
+					/>
+					<Pill
+						logo="static/lvtownfridge.png"
+						logoAlt="las vegas town fridge logo"
+						title="Las Vegas Town Fridge"
+						description="Co-founded a small organization to combat food insecurity & waste"
+						url="https://www.instagram.com/lvtownfridge/"
+					/>
 				</Container>
 			</div>
 		</div>
