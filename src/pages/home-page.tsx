@@ -154,6 +154,13 @@ const HomePage: FunctionComponent = () => {
 						currently creating...
 					</p>
 					<Pill
+						logo="static/lovesick-icon.png"
+						logoAlt="Lovesick Party Icon"
+						title="LOVESICK K-Pop Party"
+						description="Worked with Lovesick Party partners on creating a new website"
+						url="https://lovesick-party.vercel.app/"
+					/>
+					<Pill
 						logo="static/toughtalks-icon.png"
 						logoAlt="Tough Talks Icon"
 						title="Tough Talks"
