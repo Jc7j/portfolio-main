@@ -157,7 +157,7 @@ const HomePage: FunctionComponent = () => {
 						logo="static/lovesick-icon.png"
 						logoAlt="Lovesick Party Icon"
 						title="LOVESICK K-Pop Party"
-						description="Worked with Lovesick Party partners on creating a new website"
+						description="Working with Lovesick Party partners on creating a new landing page for their events"
 						url="https://lovesick-party.vercel.app/"
 					/>
 					<Pill
