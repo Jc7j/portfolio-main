@@ -16,7 +16,7 @@ const HomePage: FunctionComponent = () => {
 				<Container
 					icon="static/currentlyon-icon.png"
 					iconAlt="Working Icon"
-					title="Currently on"
+					title="Currently @"
 				>
 					<div className={styles.currentlyOn}>
 						<p>
@@ -24,6 +24,14 @@ const HomePage: FunctionComponent = () => {
 							full-stack and frontend development expertise, while continuously
 							expanding my technical knowledge and engineering skill set.
 						</p>
+					<Pill
+						logo="static/stealth-startup.jpeg"
+						logoAlt="Stealth Startup Logo"
+						title="Stealth Startup"
+						description="Senior Software Engineer"
+						dates="October 2023 - Present"
+						url="https://www.linkedin.com/company/stealth-startup-51/"
+					/>
 					</div>
 					<h2 className={styles.pastSectionTitle}>Past</h2>
 					<Pill
@@ -153,6 +161,13 @@ const HomePage: FunctionComponent = () => {
 					<p className={styles.projectCurrentlyCreatingText}>
 						currently creating...
 					</p>
+					<Pill 
+						logo="static/fox-construction-logo.jpeg"
+						logoAlt="Fox Constructions Logo"
+						title="Fox Construction Industries"
+						description="Working with Fox Construction Industries on building a new Landing Page and Dashboard Application."
+						url="https://foxconstructionindustries.com/"
+					/>
 					<Pill
 						logo="static/lovesick-icon.png"
 						logoAlt="Lovesick Party Icon"
